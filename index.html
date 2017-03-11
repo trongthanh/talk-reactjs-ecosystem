@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ReactJS Eco System - Thanh Tran</title>
 		<meta charset="utf-8">
+		<title>ReactJS Ecosystem 2017 - Thanh Tran</title>
+		<meta name="description" content="Ecosystem of single page applications based on React.">
+		<meta property="og:image" content="https://blog.int3ractive.com/talk-reactjs-ecosystem/img/spa-pillars.png" />
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/main.css">
@@ -24,7 +26,7 @@ class: animated, fadeIn
 ---
 class: center, middle
 
-# The ReactJS Eco System
+# The ReactJS Ecosystem 2017
 .logo[![ReactJS Logo](img/react.png)]
 
 ---
@@ -51,7 +53,7 @@ About me:
 # Agenda
 
 - The state of ReactJS 2017
-- ReactJS Eco System:
+- ReactJS Ecosystem:
     - SPA necessities:
         - UI kit
         - Router
@@ -159,7 +161,7 @@ return (
 .topic[UI Toolkit]
 ### Animation Helpers
 
-- react-motion
+- [react-motion](https://github.com/chenglou/react-motion)
 
 --
 
@@ -190,7 +192,7 @@ render() {
 ## Router
 
 --
-- The de-facto **react-router** library
+- The de-facto [**react-router**](https://github.com/ReactTraining/react-router) library
 - Current stable v3, beta v4
 
 --
@@ -215,7 +217,7 @@ render((
 
 --
 - Before FLUX:
-    - Backbone
+    - [Backbone](http://backbonejs.org)
     - Custom events
 
 --
@@ -243,7 +245,7 @@ Flux is the application architecture [...] for building client-side web applicat
 ### Redux
 
 --
-Redux was created by **Dan Abramov** in 2015. Redux is inspired by Facebook’s **Flux** and influenced by functional programming language **Elm**.
+[Redux](http://redux.js.org) was created by **Dan Abramov** in 2015. Redux is inspired by Facebook’s **Flux** and influenced by functional programming language **Elm**.
 
 .logo.white-bg[![Redux logo](img/redux-logo.svg)]
 
@@ -263,9 +265,9 @@ Three principle of Redux:
 --
 - Backbone models
 - jQuery AJAX + simple Flux
-- Fetch / Request + redux-thunk
-- Fetch + redux-saga
-- Relay + GraphQL
+- Fetch / Request + **redux-thunk**
+- Fetch + **redux-saga**
+- **Relay** + GraphQL
 
 ---
 
@@ -275,11 +277,11 @@ Three principle of Redux:
 
 .logo[![GraphQL logo](img/graphql-logo.svg)]
 
-- **GraphQL** is a query language for APIs and a runtime for fulfilling those queries with your existing data.
+- [**GraphQL**](http://graphql.org) is a query language for APIs and a runtime for fulfilling those queries with your existing data.
 
 .logo[![Relay logo](img/relay-logo.svg)]
 
-- **Relay** is a JavaScript framework for building data-driven **React** applications with **GraphQL** is the query language to exchange data between client & server.
+- [**Relay**](https://facebook.github.io/relay/) is a JavaScript framework for building data-driven **React** applications with **GraphQL** is the query language to exchange data between client & server.
 
 ---
 .topic[API management]
@@ -309,14 +311,14 @@ query {
 JSON:
 
 ```json
-{
+[{
 	"firstName": "Mark",
 	"lastName": "Zuckerberg",
 	"email": "mark.zuckerberg@facebook.com",
 	"birthday": "1984-01-13",
 	"gender": "Male",
 	"joinDate": "2004-04-02"
-}
+}]
 ```
 ]
 
@@ -334,7 +336,7 @@ JSON:
 ## Designer Tools
 
 --
-- Introducing React Studio
+- Introducing [React Studio](https://neonto.com/reactstudio)
 
 ---
 class: center, middle
@@ -369,10 +371,10 @@ class: center, middle
 ## ReactJS Influences
 
 - Unidirectional Architecture (Flux, Redux, vuex)
-- Composition over inheritance (Component based, Higher-order components)
+- Composition over inheritance (Component based, [higher-order components](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.gvyr3ivf6))
 
 --
-- JSX & VirtualDOM (Ember, Vue, Preact)
+- JSX & VirtualDOM (Ember, Vue, [Preact](http://preactjs.com/))
 
 --
 - CSS in JS (styled components, jscss)
@@ -397,7 +399,7 @@ class: animated, fadeIn, center, middle
 # Thanks
 ### The End
 
-.footnote[Built with [remarkjs](https://github.com/gnab/remark)]
+.footnote[Made with [remarkjs](https://github.com/gnab/remark). Source at [GitHub](https://github.com/trongthanh/talk-reactjs-ecosystem).]
 		</textarea>
 		<script>
 			/*global remark*/
