@@ -1,0 +1,158 @@
+/*stylelint-disable color-no-hex, color-named*/
+html {
+	box-sizing: border-box;
+	font-size: 10px; /*for easy rem calculation*/
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Proxima Nova, Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-weight: 300;
+	background: #2d2d2d;
+	color: #e9e9e9;
+}
+
+h1, h2, h3, h4, h5, h6, .topic {
+	font-family: Proxima Nova, Helvetica, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-weight: 400;
+	color: #00d8ff;
+}
+
+a, a:visited {
+	text-decoration-skip: ink;
+	color: white;
+}
+
+a:hover {
+	color: #61dafb;
+}
+
+ul {
+	margin: 1rem 0 1rem -1.8rem; /*to align the bullets with heading*/
+}
+
+li {
+	margin-bottom: 0.7em;
+}
+
+img {
+	max-height: 480px;
+	max-width: 600px;
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 4rem;
+	border-left: 3px solid #aaa;
+}
+
+blockquote p {
+	font-style: italic;
+}
+
+b, strong {
+	color: #00d8ff;
+	font-weight: normal;
+}
+
+.remark-code, .remark-inline-code { font-family: Monaco; }
+
+.animated {
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	height: 150px;
+	width: auto;
+}
+
+.logo + .logo {
+	margin-left: 2rem;
+}
+
+.white-bg {
+	background-color: white;
+	line-height: 0;
+}
+
+.topic {
+	position: absolute;
+	left: 8rem;
+	top: 2rem;
+}
+
+.footnote {
+	position: absolute;
+	left: 2rem;
+	bottom: 1.2rem;
+	font-size: 0.8em;
+}
+
+.title-spacer {
+	display: block;
+	padding-top: 12rem;
+}
+
+.em-spacer {
+	display: block;
+	height: 1em;
+}
+
+.float-right {
+	float: right;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.fade {
+	color: lightgray;
+}
+
+.fade strong {
+	font-weight: normal;
+	color: black;
+}
+
+.twitter {
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4rem;
+	margin-bottom: 4rem;
+}
+
+.twitter img {
+	display: block;
+	height: 18rem;
+	width: auto;
+}
+
+.twitter em {
+	display: block;
+}
+
+/* Overrides */
+.remark-slides-area {
+	background-color: #222;
+}
+
+.remark-slide,
+.remark-slide-content {
+	background-color: #2d2d2d;
+}
+
+.remark-slide-scaler {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
